@@ -16,7 +16,9 @@ $.fn.tickly = function(options) {
 			c = 0;
 			//grab passed options
 			opts = $.extend({}, $.fn.tickly.Defaults, options);
-					
+            
+			//setup first child
+            this.children().eq(0).addClass(opts.activeClass);
 			
 			this.intervalRun = setInterval(
 				(function(self) {         //Self-executing func which takes 'this' as self
