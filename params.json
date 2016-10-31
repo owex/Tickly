@@ -1,0 +1,6 @@
+{
+  "name": "Tickly",
+  "tagline": "Tickly ticks through your elements and adds a class. ",
+  "body": "### Tickly.\r\nTickly is a basic jQuery function that goes through the child elements of the target element and progressively adds an activeClass to each one individually.\r\n\r\n***\r\n\r\n\r\n    $('.class').tickly({\r\n       activeClass: 'active',\r\n       loopSpeed: 4000\r\n    });\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
